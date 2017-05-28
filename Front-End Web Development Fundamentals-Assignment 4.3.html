@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.box{
+height: 150px;
+width: 150px;
+margin-left: 45%;
+background-color: forestgreen;
+
+
+}
+
+.box:hover{
+
+    animation: mymove 7s infinite;
+}
+
+span{
+    padding-top: 65px;
+position: absolute;
+padding-left: 55px;
+}
+
+@keyframes mymove {
+    from {border-radius: 0px;
+    background-color: forestgreen;}
+    to {border-radius: 100px;
+    background-color: orange;}
+}
+</style>
+    </head>
+    <body>
+    <div class="box">
+      <span>  box</span>
+    </div>
+    </body>
+</html>
